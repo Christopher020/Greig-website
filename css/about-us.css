@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+
+/* header section */
+.headerr {
+    position: relative;
+    width: 100%;
+    height: 10vh;
+}
+
+.header-container {
+    width: 100%;
+    height: 10vh;
+    background: #3D3D3D;
+    display: flex;
+    align-items: center;
+}
+
+.header-container h1 {
+    font-size: 28px;
+    margin-left: 1em;
+    color: #fff;
+}
+/* header sectio end */
+
+.hero {
+    height: 50em;
+    /* height: auto; */
+}
+
+.hero-sec1 {
+    height: 50vh;
+    background: rgb(0, 0, 0);
+    /* background-image: url(/img/mariship_8.jpg); */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 30px;
+    padding-left: 30px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.hero-sec1 h1 {
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.hero-sec1 p {
+    font-weight: 300;
+    /* font-size: 12px; */
+    color: white;
+}
+
+.hero-info .h-info{
+    /* background: #3D3D3D; */
+    padding: 20px;
+    line-height: 1.5em;
+    text-transform: lowercase;
+}
+
+.hero-info .h-info span {
+    font-weight: 600;
+}
+
+
+/* hero section end */
+
+/* video section */
+.vid {
+    display: none;
+    padding: 8px;
+}
+
+
+/* end of video section */
+
+
+/* our vision section */
+.vision {
+    /* background: crimson; */
+    height: 61em;
+}
+
+.vision-container {
+    /* background: burlywood; */
+    height: 61em;
+    padding-top: 26px;
+}
+
+.vision-left {
+    /* background: #3D3D3D; */
+    height: 20em;
+}
+
+.our-vision-left {
+    /* background: coral; */
+    height: 8em;
+}
+
+.our-vision-left .vision-left-info h2 {
+    padding-left: 16px;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
+.our-vision-left .vision-left-info p {
+    padding-left: 16px;
+    line-height: 1.4em;
+
+}
+
+.our-mission {
+    /* background: cadetblue; */
+    height: 11em;
+}
+
+.our-mission h2 {
+    padding-left: 16px;
+    padding-top: 1em;
+    padding-bottom: 10px;
+    font-size: 24px;
+
+}
+
+.our-mission p {
+    padding-left: 16px;
+    line-height: 1.4em;
+}
+
+.vision-right {
+    /* background: darkgoldenrod; */
+    height: 38em;
+}
+
+.vision-right .our-core-values {
+    /* background: #3D3D3D; */
+    height: 19em;
+}
+
+.vision-right .our-core-values h2 {
+    padding-left: 16px;
+    padding-bottom: 10px;
+    font-size: 24px;
+
+}
+
+.vision-right .our-core-values ul {
+    padding-left: 16px;
+    list-style: none;
+}
+
+.vision-right .our-core-values ul li {
+    display: block;
+    width: 80%;
+    height: 2.6em;
+    background: teal;
+    border-top: 5px solid white;
+    padding: 6px;
+}
+
+.vision-right .our-ex {
+    background: white;
+    height: 18em;
+}
+
+.vision-right .our-ex h2 {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
+.vision-right .our-ex p {
+    padding-left: 16px;
+    padding-top: 1em;
+
+}
+
+.vision-right .our-ex .lorem1 {
+    background: #3D3D3D;
+    height: .4em;
+    width: 90%;
+    margin-left: 16px;
+    margin-top: 5px;
+}
+
+.vision-right .our-ex .lorem1 .inner-lorem1 {
+    background: lime;
+    height: .4em;
+    width: 70%;
+}
+
+.vision-right .our-ex .lorem2 {
+    background: #3D3D3D;
+    height: .4em;
+    width: 90%;
+    margin-left: 16px;
+    margin-top: 5px;
+}
+
+.vision-right .our-ex .lorem2 .inner-lorem2 {
+    background: lime;
+    height: .4em;
+    width: 60%;
+}
+
+.vision-right .our-ex .lorem3 {
+    background: #3D3D3D;
+    height: .4em;
+    width: 90%;
+    margin-left: 16px;
+    margin-top: 5px;
+}
+
+.vision-right .our-ex .lorem3 .inner-lorem3{
+    background: lime;
+    height: .4em;
+    width: 50%;
+}
+
+.vision-right .our-ex .lorem4 {
+    background: #3D3D3D;
+    height: .4em;
+    width: 90%;
+    margin-left: 16px;
+    margin-top: 5px;
+}
+
+.vision-right .our-ex .lorem4 .inner-lorem4 {
+    background: lime;
+    height: .4em;
+    width: 90%;
+}
+
+.vision-right .our-ex .lorem5 {
+    background: #3D3D3D;
+    height: .4em;
+    width: 90%;
+    margin-left: 16px;
+    margin-top: 5px;
+}
+
+.vision-right .our-ex .lorem5 .inner-lorem5 {
+    background: lime;
+    height: .4em;
+    width: 80%;
+}
+
+@media only screen and (min-width: 1200px) {
+    .headerr {
+        height: 6em;
+    }
+    .header-container {
+        width: 1299px;
+        margin: 0 auto;
+        height: 6em;
+    }
+    .hero {
+        height: 30em;
+    }
+    .hero-sec1 {
+        width: 1299px;
+        margin: 0 auto;
+    }
+    .hero-sec1 {
+        height: 20em;
+        padding-left: 14em;
+    }
+
+    .hero-sec1 h1 {
+        font-size: 34px;
+    }
+
+    .hero-sec1 p {
+        width: 70%;
+        font-size: 20px;
+        line-height: 1.5em;
+        background: #3d3d3d49;
+    }
+    /*  */
+    
+    
+    .hero {
+        /* display: flex; */
+        height: 32em;
+    }
+
+    .hero{
+        width: 1299px;
+        margin: 0 auto;
+        /* background: #3D3D3D; */
+    }
+
+    .hero-img {
+        width: 50%;
+        /* background: chartreuse; */
+    }
+
+    .hero-img img {
+        width: 570px;
+        margin-left: 1.5em;
+    }
+
+    .hero-info {
+        width: 1299px;
+        margin: 0 auto;
+        padding-top: 3em;
+        /* background-color: aqua; */
+    }
+
+    .hero-info .h-info {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .hero-info .h-info {
+        padding-top: 1em;
+        width: 80%;
+        margin-left: 3em;
+    }
+
+    /* video section */
+    .vid {
+        width: 1299px;
+        margin: 0 auto;
+        /* background: #3D3D3D; */
+        height: 25em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .vid video {
+        width: 70em;
+        height: 24em;
+    }
+
+    /* our vision section */
+    .vision {
+        /* background: brown; */
+        height: 35em;
+    }
+
+    .vision-container {
+        width: 1299px;
+        margin: 0 auto;
+        display: flex;
+        height: 27em;
+    }
+
+    .vision-left {
+        /* background: #3D3D3D; */
+        width: 34%;
+        height: 27em;
+    }
+
+    .our-vision-left {
+        /* background: burlywood; */
+        height: 13em;
+        padding: 15px;
+    }
+
+    .our-vision-left .vision-left-info h2 {
+        padding-left: 29px;
+        padding-top: 20px;
+        font-size: 24px;
+    }
+
+    .our-vision-left .vision-left-info p {
+        padding-left: 29px;
+        line-height: 1.7em;
+    }
+
+    .our-mission {
+        /* background: darkorchid; */
+        height: 14em;
+    }
+
+    .our-mission h2 {
+        padding-left: 39px;
+        font-size: 24px;
+    }
+
+    .our-mission p {
+        width: 90%;
+        padding-left: 32px;
+        line-height: 1.7em;
+    }
+
+    .vision-right {
+        /* background: cyan; */
+        display: flex;
+        width: 70%;
+        height: 27em;
+    }
+
+    .vision-right .our-core-values {
+        /* background: darkgreen; */
+        height: 27em;
+        width: 53%;
+    }
+
+    .vision-right .our-core-values h2 {
+        font-size: 24px;
+        padding-top: 28px;
+        padding-bottom: 16px;
+    }
+
+    .vision-right .our-core-values ul li {
+        height: 3.5em;
+        padding: 15px;
+    }
+
+    .vision-right .our-ex {
+        /* background: darkcyan; */
+        width: 50%;
+        height: 27em;
+    }
+
+    .vision-right .our-ex h2 {
+        font-size: 24px;
+        padding-top: 28px;
+    }
+}

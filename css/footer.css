@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+footer {
+    width: 100%;
+    height: 30vh;
+    /* margin-top: 50px; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .footer-container {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    /* justify-content: space-between; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: rgb(56, 56, 56);
+    
+    color: #fff;
+}
+
+footer .footer-container .connect-us {
+    margin-left: 2em;
+}
+
+footer .footer-container .connect-us a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    transition: .5s ease;
+    font-weight: 300;
+    font-size: 10px;
+    
+}
+
+footer .footer-container .connect-us h3 {
+    font-size: 13px;
+}
+
+footer .footer-container .connect-us .fab {
+    padding-top: 6px;
+    padding-right: 10px;
+}
+
+footer .footer-container .connect-us a:hover {
+    color: #426b3e;
+}
+
+footer .regards {
+    background-color: #46b63b;
+    text-align: center;
+    color: white;
+}
+
+footer .contact-us {
+    margin-left: 2em;
+}
+
+footer .contact-us .fas {
+    padding-right: 10px;
+}
+
+footer .contact-us p {
+    font-weight: 200;
+    font-size: 10px;
+}
+
+footer .contact-us h3 {
+    font-size: 13px;
+}
+
+footer .about-us {
+    margin-left: 2em;
+}
+
+footer .about-us p {
+    font-weight: 300;
+    font-size: 9px;
+}
+
+footer .about-us h3 {
+    font-size: 13px;
+}
+
+footer .logo img {
+    display: none;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    footer {
+        /* background: rgb(56, 56, 56); */
+        height: 13em;
+        width: 1299px;
+        margin: 0 auto;
+        
+    }
+
+    footer .footer-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 1299px;
+        margin: 0 auto;
+        height: 13em;
+    }
+    
+    footer .contact-us p {
+        font-size: 12px;
+        line-height: 1.5em;
+    }
+    footer .contact-us h3 {
+        font-size: 15px;
+    }
+
+    footer .footer-container .connect-us a {
+        font-size: 12px;
+    }
+    footer .footer-container .connect-us h3 {
+        font-size: 15px;
+    }
+
+    footer .about-us {
+        width: 38em;
+        /* background: lightgreen; */
+    }
+
+    footer .about-us p {
+        font-size: 12px;
+        line-height: 1.5em;
+        /* width: 150%; */
+        /* background: #3d3d3d52; */
+    }
+    
+    footer .about-us h3 {
+        font-size: 15px;
+    }
+
+    footer .logo img{
+        width: 200px;
+        margin-right: 8em;
+        margin-top: 1em;
+        display: initial;
+    }    
+}
