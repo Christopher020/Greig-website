@@ -26,7 +26,7 @@ const createHeader = () => {
                     </li>
                     <li><a href="#">Other Services +</a>
                         <ul>
-                            <li><a href="video_over-satelite.html">Vedio over satelite</a></li>
+                            <li><a href="video_over-satelite.html">Video over satelite</a></li>
                             <li><a href="voice-over-satelite.html">Voice over satelite</a></li>
                         </ul>
                     </li>

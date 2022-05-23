@@ -45,7 +45,7 @@
 }
 
 .hero-info h1 {
-    font-family: Montserrat Alternates;
+    /* font-family: Montserrat Alternates; */
     font-weight: 700;
     font-size: 20px;
     margin-left: .6em;
@@ -54,10 +54,9 @@
 }
 
 .hero-info p {
-    font-family: Montserrat Alternates;
     font-weight: 300;
     font-size: 13px;
-    line-height: 20px;
+    line-height: 25px;
     width: 90%;
     margin-left: 1em;
 }
